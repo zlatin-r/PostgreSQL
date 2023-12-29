@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="298f8d9a-6475-45ad-bc77-20a7912d94cf" name="Changes" comment="commit" />
+    <list default="true" id="298f8d9a-6475-45ad-bc77-20a7912d94cf" name="Changes" comment="commit">
+      <change afterPath="$PROJECT_DIR$/test.sql" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,7 +31,6 @@
     "RunOnceActivity.OpenDatabaseViewOnStart": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "/home/zlatin/PostgreSQL/SoftUni-PostgreSQL/Built-in Functions"
   },
