@@ -4,19 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="298f8d9a-6475-45ad-bc77-20a7912d94cf" name="Changes" comment="commit" />
+    <list default="true" id="298f8d9a-6475-45ad-bc77-20a7912d94cf" name="Changes" comment="commit">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fce8bca9-c72d-428a-9d48-f2e0e9964f2a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fce8bca9-c72d-428a-9d48-f2e0e9964f2a.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2aDkiw4SUeqIkBEQ5uIfC4KkNlX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -33,7 +36,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/zlatin/PostgreSQL/SoftUni-PostgreSQL",
+    "last_opened_file_path": "/home/zlatin/PostgreSQL/SoftUni-PostgreSQL/Built-in Functions",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   },
   "keyToStringList": {
