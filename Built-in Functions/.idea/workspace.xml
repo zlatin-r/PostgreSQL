@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="575fb146-0607-473c-9975-40619ad48aa0" name="Changes" comment="Descriptions to the tasks">
-      <change afterPath="$PROJECT_DIR$/03-PostgreSQL-Built-in-Functions-Lab.docx" afterDir="false" />
-    </list>
+    <list default="true" id="575fb146-0607-473c-9975-40619ad48aa0" name="Changes" comment="Descriptions to the tasks" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
