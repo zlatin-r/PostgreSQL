@@ -51,3 +51,4 @@ INSERT INTO products (name, category_id,price) VALUES ('Lasagne', 4,12.99),
 ('Tiramisu', 5,4.90),
 ('John Cole', 5,5.60),
 ('Mini Cannoli', 5,5.60);
+
