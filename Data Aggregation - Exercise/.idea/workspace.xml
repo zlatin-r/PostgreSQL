@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc3eb708-fb49-481a-b18a-a82bd7d1b8a3" name="Changes" comment="Descriptions to the tasks" />
+    <list default="true" id="cc3eb708-fb49-481a-b18a-a82bd7d1b8a3" name="Changes" comment="Initial Commit">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/761f99b9-f31c-443b-b461-9dc4a5141781.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/761f99b9-f31c-443b-b461-9dc4a5141781.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/761f99b9-f31c-443b-b461-9dc4a5141781/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/761f99b9-f31c-443b-b461-9dc4a5141781/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,8 +41,8 @@
 }</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initial Commit" />
     <MESSAGE value="Descriptions to the tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="Descriptions to the tasks" />
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
   </component>
 </project>
