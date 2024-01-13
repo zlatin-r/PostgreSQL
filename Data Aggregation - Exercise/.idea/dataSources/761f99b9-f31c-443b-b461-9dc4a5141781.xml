@@ -3,7 +3,7 @@
   <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.51">
     <root id="1">
       <DateStyle>dmy</DateStyle>
-      <IntrospectionStateNumber>1574</IntrospectionStateNumber>
+      <IntrospectionStateNumber>1581</IntrospectionStateNumber>
       <ServerVersion>16.1</ServerVersion>
       <StartupTime>1705126927</StartupTime>
       <TimeZones>true ACDT
@@ -1406,7 +1406,7 @@ false posixrules
 13229||10|C|G
 13229||-9223372036854775808|U|G
 13229||10|U|G</Grants>
-      <IntrospectionStateNumber>1574</IntrospectionStateNumber>
+      <IntrospectionStateNumber>1581</IntrospectionStateNumber>
       <ObjectId>17553</ObjectId>
       <OwnerName>postgres</OwnerName>
     </database>
@@ -4844,8 +4844,8 @@ false posixrules
     <schema id="267" parent="4" name="public">
       <Comment>standard public schema</Comment>
       <Current>1</Current>
-      <IntrospectionStateNumber>1574</IntrospectionStateNumber>
-      <LastIntrospectionLocalTimestamp>2024-01-13.11:01:00</LastIntrospectionLocalTimestamp>
+      <IntrospectionStateNumber>1581</IntrospectionStateNumber>
+      <LastIntrospectionLocalTimestamp>2024-01-13.12:52:03</LastIntrospectionLocalTimestamp>
       <ObjectId>2200</ObjectId>
       <StateNumber>523</StateNumber>
       <OwnerName>pg_database_owner</OwnerName>
@@ -8221,9 +8221,9 @@ false posixrules
       <OwnerName>postgres</OwnerName>
     </table>
     <view id="514" parent="267" name="view_wizard_deposits_with_expiration_date_before_1983_08_17">
-      <ObjectId>17573</ObjectId>
-      <SourceTextLength>318</SourceTextLength>
-      <StateNumber>1573</StateNumber>
+      <ObjectId>17581</ObjectId>
+      <SourceTextLength>443</SourceTextLength>
+      <StateNumber>1579</StateNumber>
       <OwnerName>postgres</OwnerName>
     </view>
     <check id="515" parent="513" name="wizard_deposits_age_check">
@@ -8366,22 +8366,22 @@ false posixrules
     <column id="536" parent="514" name="Wizard Name">
       <DasType>text|0s</DasType>
       <Position>1</Position>
-      <StateNumber>1573</StateNumber>
+      <StateNumber>1579</StateNumber>
     </column>
     <column id="537" parent="514" name="Start Date">
       <DasType>date|0s</DasType>
       <Position>2</Position>
-      <StateNumber>1573</StateNumber>
+      <StateNumber>1579</StateNumber>
     </column>
     <column id="538" parent="514" name="Expiration Date">
       <DasType>date|0s</DasType>
       <Position>3</Position>
-      <StateNumber>1573</StateNumber>
+      <StateNumber>1579</StateNumber>
     </column>
     <column id="539" parent="514" name="Amount">
       <DasType>numeric(8,2 digit)|0s</DasType>
       <Position>4</Position>
-      <StateNumber>1573</StateNumber>
+      <StateNumber>1579</StateNumber>
     </column>
   </database-model>
 </dataSource>
