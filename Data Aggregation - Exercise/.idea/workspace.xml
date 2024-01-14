@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc3eb708-fb49-481a-b18a-a82bd7d1b8a3" name="Changes" comment="Solution to the task">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/761f99b9-f31c-443b-b461-9dc4a5141781.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/761f99b9-f31c-443b-b461-9dc4a5141781.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/761f99b9-f31c-443b-b461-9dc4a5141781/storage_v2/_src_/database/gringotts_db.goDP1Q/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/761f99b9-f31c-443b-b461-9dc4a5141781/storage_v2/_src_/database/gringotts_db.goDP1Q/schema/public.abK9xQ.meta" afterDir="false" />
-    </list>
+    <list default="true" id="cc3eb708-fb49-481a-b18a-a82bd7d1b8a3" name="Changes" comment="Solution to the task" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
