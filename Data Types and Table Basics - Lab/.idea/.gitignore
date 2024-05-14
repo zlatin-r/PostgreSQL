@@ -4,8 +4,3 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
-/.gitignore
-/01. PostgreSQL Introduction. Data Types. Working with Tables - Lab.iml
-/dataSources.xml
-/modules.xml
-/vcs.xml
