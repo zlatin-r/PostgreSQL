@@ -1,0 +1,3 @@
+ALTER TABLE minions_info
+
+ADD CONSTRAINT
