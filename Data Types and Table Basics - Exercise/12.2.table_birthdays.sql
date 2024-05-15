@@ -1,5 +1,5 @@
 CREATE TABLE minions_birthdays (
-    id SERIAL PRIMARY KEY UNIQUE ,
+    id SERIAL PRIMARY KEY UNIQUE,
     name VARCHAR(50),
     date_of_birth DATE,
     age INTEGER,
