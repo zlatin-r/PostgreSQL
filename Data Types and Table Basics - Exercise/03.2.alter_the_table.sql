@@ -1,4 +1,4 @@
 ALTER TABLE minions_info
 ADD COLUMN code CHAR(4),
 ADD COLUMN task TEXT,
-ADD COLUMN salary DECIMAL(10, 2);
+ADD COLUMN salary DECIMAL(8, 3);
