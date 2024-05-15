@@ -12,6 +12,7 @@
     <file url="file://$PROJECT_DIR$/../Data Types and Table Basics - Exercise/08.2.add_constraints.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/../Data Types and Table Basics - Exercise/09.2.change_columns_data_type.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/../Data Types and Table Basics - Exercise/10.2.drop_constraint.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/../Data Types and Table Basics - Exercise/11.2.remove_column.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/01.2.create_tables.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/02.insert_data_in_tables.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/03.2.alter_table.sql" dialect="PostgreSQL" />
