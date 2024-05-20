@@ -1,9 +1,9 @@
 SELECT
     concat_ws(
-    ' ',
-    first_name,
-    last_name
-    ) AS full_name,
+        ' ',
+        first_name,
+        last_name
+        ) AS full_name,
     job_title,
     salary
 FROM
