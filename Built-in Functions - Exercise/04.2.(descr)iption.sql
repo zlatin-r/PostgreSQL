@@ -1,4 +1,4 @@
 SELECT
-SUBSTRING(description, 5)
+    SUBSTRING(description, 5)
 FROM
     currencies;
