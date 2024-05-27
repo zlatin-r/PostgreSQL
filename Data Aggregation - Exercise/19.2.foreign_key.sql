@@ -1,6 +1,6 @@
 CREATE TABLE
     employees_projects(
-        id INT PRIMARY KEY,
+        id SERIAL PRIMARY KEY,
         employee_id INT,
         project_id INT,
 
