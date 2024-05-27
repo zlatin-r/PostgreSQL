@@ -3,7 +3,7 @@ SELECT
     COUNT(department_id) AS num_employees,
     CASE
         WHEN AVG(salary) > 50000 THEN 'Above average'
-        WHEN AVG(salary) < 50000 THEN 'Below average'
+        ELSE 'Below average'
     END AS salary_level
 FROM
     employees
