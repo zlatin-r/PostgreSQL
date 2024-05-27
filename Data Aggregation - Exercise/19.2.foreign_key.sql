@@ -7,3 +7,12 @@ CREATE TABLE
         FOREIGN KEY (employee_id) REFERENCES employees(id),
         FOREIGN KEY (project_id) REFERENCES projects(id)
 );
+
+/*
+ CREATE TABLE
+    employees_projects(
+        id SERIAL PRIMARY KEY,
+        employee_id INT REFERENCES employees(id),
+        project_id INT REFERENCES projects(id)
+);
+ */
