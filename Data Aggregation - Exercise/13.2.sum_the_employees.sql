@@ -6,5 +6,6 @@ SELECT
 	COUNT(CASE department_id WHEN 5 THEN 'something' END) "Purchasing",
 	SUM(CASE department_id WHEN 6 THEN 1 END) "Research and Development",
 	COUNT(CASE department_id WHEN 7 THEN 1 END) "Production"
+    -- all above are same
 FROM
     employees;
