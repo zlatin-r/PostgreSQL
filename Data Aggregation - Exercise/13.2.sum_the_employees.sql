@@ -7,4 +7,4 @@ SELECT
 	COUNT(CASE department_id WHEN 6 THEN 1 END) "Research and Development",
 	COUNT(CASE department_id WHEN 7 THEN 1 END) "Production"
 FROM
-    employees
+    employees;
