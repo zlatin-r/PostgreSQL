@@ -1,6 +1,10 @@
+CREATE SEQUENCE passports_id_seq
+START WITH 100
+INCREMENT BY 1;
+
 CREATE TABLE
     passports (
-        id INT GENERATED ALWAYS AS IDENTITY (START WITH 100 INCREMENT BY 1) PRIMARY KEY ,
+        id INT PRIMARY KEY DEFAULT nextval('passports_id_seq'),
         nationality VARCHAR(50)
 );
 
@@ -11,7 +15,3 @@ INSERT INTO
 VALUES ('N34FG21B'),
        ('K65LO4R7'),
        ('ZE657QP2');
-
-
-select * from passports
-
