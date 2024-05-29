@@ -4,7 +4,7 @@ CREATE TABLE students(
 );
 
 CREATE TABLE exams(
-    id INT GENERATED ALWAYS AS IDENTITY (START WITH 101 INCREMENT BY 1) PRIMARY KEY ,
+    id INT GENERATED ALWAYS AS IDENTITY (START WITH 101 INCREMENT BY 1) PRIMARY KEY,
     exam_name VARCHAR(50)
 );
 
@@ -19,9 +19,11 @@ CREATE TABLE study_halls(
 );
 
 CREATE TABLE students_exams(
-    id SERIAL PRIMARY KEY,
     student_id INT,
     exam_id INT,
+
+    CONSTRAINT pk_students_exams
+    PRIMARY KEY (student_id, exam_id),
 
     CONSTRAINT fk_student_id_students
     FOREIGN KEY (student_id)
@@ -56,3 +58,5 @@ VALUES (1, 101),
        (3, 103),
        (2, 102),
        (2, 103);
+
+-- DROP TABLE students, students_exams, exams, study_halls;
