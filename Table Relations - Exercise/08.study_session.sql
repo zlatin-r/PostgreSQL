@@ -4,13 +4,13 @@ CREATE TABLE students(
 );
 
 CREATE TABLE exams(
-    id INT GENERATED ALWAYS AS IDENTITY (START WITH 101 INCREMENT BY 1) PRIMARY KEY,
+    id INT GENERATED ALWAYS AS IDENTITY (START WITH 101 INCREMENT 1) PRIMARY KEY,
     exam_name VARCHAR(50)
 );
 
 CREATE TABLE study_halls(
     id SERIAL PRIMARY KEY,
-    study_halls_name VARCHAR(50),
+    study_hall_name VARCHAR(50),
     exam_id INT,
 
     CONSTRAINT fk_exam_id_exams
@@ -44,7 +44,7 @@ VALUES ('Python Advanced'),
        ('Python OOP'),
        ('PostgreSQL');
 
-INSERT INTO study_halls(study_halls_name, exam_id)
+INSERT INTO study_halls(study_hall_name, exam_id)
 VALUES ('Open Source Hall', 102),
        ('Inspiration Hall', 101),
        ('Creative Hall', 103),
@@ -58,5 +58,3 @@ VALUES (1, 101),
        (3, 103),
        (2, 102),
        (2, 103);
-
--- DROP TABLE students, students_exams, exams, study_halls;
