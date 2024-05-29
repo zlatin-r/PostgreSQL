@@ -42,6 +42,9 @@ CREATE TABLE order_items (
     order_id INT,
     item_id INT,
 
+    CONSTRAINT pk_order_items
+    PRIMARY KEY (order_id, item_id),
+
     CONSTRAINT fk_order_items_orders
     FOREIGN KEY (order_id)
     REFERENCES orders (id),
