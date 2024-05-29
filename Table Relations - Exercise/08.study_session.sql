@@ -38,8 +38,7 @@ VALUES ('Mila'),
        ('Ron');
 
 INSERT INTO exams(exam_name)
-VALUES ('Python'),
-       ('Advanced'),
+VALUES ('Python Advanced'),
        ('Python OOP'),
        ('PostgreSQL');
 
