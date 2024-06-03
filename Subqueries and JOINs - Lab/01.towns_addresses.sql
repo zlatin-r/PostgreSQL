@@ -9,5 +9,5 @@ JOIN addresses AS a
 WHERE
     t.name IN ('San Francisco', 'Sofia', 'Carnation')
 ORDER BY
-    t.town_id,
-    a.address_id;
+    town_id,
+    address_id;
