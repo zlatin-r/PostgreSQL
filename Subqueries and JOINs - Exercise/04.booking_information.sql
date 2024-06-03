@@ -2,7 +2,8 @@ SELECT
     b.booking_id AS bookings,
     a.name AS apartment_owner,
     a.apartment_id AS apartments,
-    CONCAT(c.first_name, ' ', c.last_name) AS customer_name
+    CONCAT(c.first_name, ' ', c.last_name)
+        AS customer_name
 FROM
     apartments AS a
 FULL JOIN
