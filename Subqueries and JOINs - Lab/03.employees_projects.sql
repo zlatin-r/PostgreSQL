@@ -10,4 +10,4 @@ JOIN employees_projects AS ep
 JOIN projects AS p
     ON p.project_id = ep.project_id
 WHERE
-    ep.project_id = 1
+    ep.project_id = 1;
