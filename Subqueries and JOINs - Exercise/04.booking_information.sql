@@ -2,7 +2,7 @@ SELECT
     b.booking_id AS bookings,
     a.name AS apartment_owner,
     a.apartment_id AS apartments,
-    CONCAT(c.first_name, ' ', c.last_name)
+    c.first_name || ' ' || c.last_name -- returns <null> instead of empty string
         AS customer_name
 FROM
     apartments AS a
