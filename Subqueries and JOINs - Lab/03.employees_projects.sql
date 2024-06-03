@@ -6,7 +6,7 @@ SELECT
 FROM
     employees AS e
 JOIN employees_projects AS ep
-    ON e.employee_id = ep.project_id
+    ON e.employee_id = ep.employee_id
 JOIN projects AS p
     ON p.project_id = ep.project_id
 WHERE
