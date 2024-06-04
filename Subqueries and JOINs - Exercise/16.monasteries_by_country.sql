@@ -34,8 +34,9 @@ UPDATE
 SET
     three_rivers = (
     SELECT
-         *
+         COUNT(*) >= 3
      FROM
          countries_rivers AS cr
      WHERE cr.country_code = countries.country_code
      );
+
