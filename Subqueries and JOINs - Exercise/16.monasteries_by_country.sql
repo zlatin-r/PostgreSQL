@@ -50,6 +50,6 @@ JOIN
 USING
     (country_code)
 WHERE
-    three_rivers IS FALSE
+    three_rivers IS FALSE -- or NOT three_rivers
 ORDER BY
     monastery_name;
