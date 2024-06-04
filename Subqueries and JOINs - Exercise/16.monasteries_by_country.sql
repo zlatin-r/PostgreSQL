@@ -29,5 +29,13 @@ ALTER TABLE
 ADD COLUMN
     three_rivers BOOLEAN DEFAULT FALSE;
 
-UPDATE countries
-SET three_rivers = TRUE
+UPDATE
+    countries
+SET
+    three_rivers = (
+    SELECT
+         *
+     FROM
+         countries_rivers AS cr
+     WHERE cr.country_code = countries.country_code
+     );
