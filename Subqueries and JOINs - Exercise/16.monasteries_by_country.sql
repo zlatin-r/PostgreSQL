@@ -24,6 +24,10 @@ VALUES ('Rila Monastery "St. Ivan of Rila"', 'BG'),
       ('Taktsang Palphug Monastery', 'BT'),
       ('Sümela Monastery', 'TR');
 
-ALTER TABLE countries
-ADD COLUMN three_rivers BOOLEAN DEFAULT FALSE;
+ALTER TABLE
+    countries
+ADD COLUMN
+    three_rivers BOOLEAN DEFAULT FALSE;
 
+UPDATE countries
+SET three_rivers = TRUE
