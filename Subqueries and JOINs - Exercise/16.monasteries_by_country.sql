@@ -40,3 +40,16 @@ SET
      WHERE cr.country_code = countries.country_code
      );
 
+SELECT
+    m.monastery_name AS monastery,
+    c.country_name AS country
+FROM
+    monasteries AS m
+JOIN
+    countries AS c
+USING
+    (country_code)
+WHERE
+    three_rivers IS FALSE
+ORDER BY
+    monastery_name;
