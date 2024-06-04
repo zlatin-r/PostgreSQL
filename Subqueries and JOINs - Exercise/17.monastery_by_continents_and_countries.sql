@@ -19,7 +19,7 @@ VALUES
 SELECT
     cont.continent_name,
     coun.country_name,
-    COUNT(coun.country_code) AS monasteries_count
+    COUNT(*) AS monasteries_count
 FROM
     continents AS cont
 JOIN
@@ -37,4 +37,4 @@ GROUP BY
     cont.continent_name
 ORDER BY
     monasteries_count DESC,
-    country_name
+    country_name;
