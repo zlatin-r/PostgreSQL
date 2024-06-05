@@ -5,7 +5,7 @@ $$
     DECLARE full_name varchar;
     BEGIN
         SELECT(CONCAT(first_name, ' ', last_name))  INTO full_name;
-    --  full_name := INITCAP(lower(first_name)) || ' ' || INITCAP(lower(last_name))
+    --  full_name := INITCAP(first_name) || ' ' || INITCAP(last_name)
         RETURN INITCAP(full_name);
     END;
 $$
