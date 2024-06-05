@@ -16,3 +16,5 @@ $$
 LANGUAGE plpgsql;
 
 SELECT fn_count_employees_by_town('Sofia') AS count;
+SELECT fn_count_employees_by_town('Berlin') AS count;
+SELECT fn_count_employees_by_town(NULL) AS count;
