@@ -12,4 +12,4 @@ $$
 LANGUAGE plpgsql;
 
 SELECT fn_full_name('fred', 'sanford');
-SELECT fn_full_name('', 'SIMPSONS')
+SELECT fn_full_name('', 'SIMPSONS');
