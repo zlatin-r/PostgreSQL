@@ -8,3 +8,5 @@ $$
     END;
 $$
 LANGUAGE plpgsql;
+
+CALL sp_increase_salaries('Sales');
