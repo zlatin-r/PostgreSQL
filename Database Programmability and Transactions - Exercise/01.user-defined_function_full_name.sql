@@ -4,12 +4,14 @@ AS
 $$
     DECLARE full_name varchar;
     BEGIN
-        SELECT(CONCAT(first_name, ' ', last_name))  INTO full_name;
-    --  full_name := INITCAP(first_name) || ' ' || INITCAP(last_name)
-        RETURN INITCAP(full_name);
+        full_name := INITCAP(first_name || ' ' || last_name);
+        -- SELECT INITCAP(CONCAT(first_name, ' ', last_name))  INTO full_name;
+        RETURN full_name;
     END;
 $$
 LANGUAGE plpgsql;
 
 SELECT fn_full_name('fred', 'sanford');
 SELECT fn_full_name('', 'SIMPSONS');
+
+DROP FUNCTION IF EXISTS fn_full_name
