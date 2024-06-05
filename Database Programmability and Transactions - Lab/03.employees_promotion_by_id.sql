@@ -2,8 +2,7 @@ CREATE OR REPLACE PROCEDURE sp_increase_salary_by_id(id INT)
 AS
 $$
     BEGIN
-        IF (SELECT
-                COUNT(employee_id)
+        IF (SELECT COUNT(employee_id)
             FROM employees
             WHERE employee_id = id) <> 1 THEN
             ROLLBACK;
