@@ -15,8 +15,8 @@ AS $$
             account_amount < money_amount
         THEN
             RAISE NOTICE
-                '% %', 'Insufficient balance to withdraw', account_amount;
-            ROLLBACK;
+                'Insufficient balance to withdraw %', account_amount;
+                ROLLBACK;
         ELSE
             UPDATE
                 accounts
@@ -27,3 +27,5 @@ AS $$
         END IF;
 END $$
 LANGUAGE plpgsql;
+
+CALL sp_withdraw_money(1, 200);
