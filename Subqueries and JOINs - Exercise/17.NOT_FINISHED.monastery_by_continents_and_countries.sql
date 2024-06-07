@@ -13,20 +13,19 @@ VALUES
                         FROM
                             countries
                         WHERE
-                            country_name = 'Tanzania')),
-    ('Myin-Tin-Daik', 'MY');
+                            country_name = 'Tanzania'));
 
 SELECT
     cont.continent_name,
     coun.country_name,
-    COUNT(*) AS monasteries_count
+    COUNT(mon.country_code) AS monasteries_count
 FROM
     continents AS cont
 JOIN
     countries AS coun
 USING
     (continent_code)
-JOIN
+LEFT JOIN
     monasteries AS mon
 USING
     (country_code)
