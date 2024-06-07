@@ -1,6 +1,7 @@
 CREATE OR REPLACE FUNCTION fn_difficulty_level(points INT)
 RETURNS VARCHAR
 AS
+
 $$
 DECLARE
     level_is VARCHAR(50);
@@ -12,5 +13,15 @@ BEGIN
     RETURN level_is;
 END;
 $$
+
 LANGUAGE plpgsql;
 
+SELECT
+    user_id,
+    level,
+    cash,
+    fn_difficulty_level(level)
+FROM
+    users_games
+ORDER BY
+    user_id;
