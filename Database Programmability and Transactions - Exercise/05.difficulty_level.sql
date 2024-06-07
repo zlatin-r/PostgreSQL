@@ -8,8 +8,9 @@ BEGIN
     IF points <= 40 THEN level_is := 'Normal Difficulty';
     ELSEIF points <= 60 THEN level_is := 'Nightmare Difficulty';
     ELSE level_is := 'Hell Difficulty';
-    RETURN level_is;
     END IF;
+    RETURN level_is;
 END;
 $$
 LANGUAGE plpgsql;
+
