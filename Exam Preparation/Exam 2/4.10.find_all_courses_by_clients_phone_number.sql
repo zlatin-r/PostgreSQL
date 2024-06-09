@@ -3,11 +3,13 @@ RETURNS INT
 LANGUAGE plpgsql
 AS
 $$
-    DECLARE result INT;
+    DECLARE
+        result INT;
     BEGIN
         SELECT
             COUNT(*)
-        INTO result
+        INTO
+            result
         FROM
             clients AS cl
         JOIN
@@ -19,7 +21,3 @@ $$
     RETURN result;
     END;
 $$;
-
-SELECT fn_courses_by_client('2(803) 638681');
-SELECT fn_courses_by_client('(831) 1391236');
-SELECT fn_courses_by_client('(704) 2502909');
