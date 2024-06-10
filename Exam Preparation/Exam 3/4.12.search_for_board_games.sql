@@ -16,8 +16,7 @@ $$
         TRUNCATE search_results;
 
         INSERT INTO search_results
-            (id,
-             name,
+            (name,
              release_year,
              rating,
              category_name,
@@ -56,3 +55,6 @@ $$
     END;
 $$
 LANGUAGE plpgsql;
+
+CALL usp_search_by_category('Wargames');
+SELECT * FROM search_results;
