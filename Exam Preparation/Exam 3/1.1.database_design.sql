@@ -83,8 +83,8 @@ CREATE TABLE IF NOT EXISTS board_games (
 );
 
 CREATE TABLE IF NOT EXISTS creators_board_games (
-    creator_id INT NOT NULL, -- fk to creators
-    board_game_id INT NOT NULL, -- fk to board_games
+    creator_id INT NOT NULL,
+    board_game_id INT NOT NULL,
 
     CONSTRAINT fk_creators_board_games
         FOREIGN KEY (creator_id)
