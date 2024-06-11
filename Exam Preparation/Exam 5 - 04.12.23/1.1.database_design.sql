@@ -97,15 +97,15 @@ CREATE TABLE IF NOT EXISTS products_ingredients (
     product_id INT NOT NULL,
     ingredient_id INT NOT NULL,
 
-    CONSTRAINT fk_products_ingredients
+    CONSTRAINT fk_products_product_id
         FOREIGN KEY (product_id)
-        REFERENCES ingredients (id)
+        REFERENCES products (id)
         ON UPDATE CASCADE
         ON DELETE CASCADE,
 
-    CONSTRAINT fk_ingredients_products
+    CONSTRAINT fk_ingredients_ingredient_id
         FOREIGN KEY (ingredient_id)
-        REFERENCES products (id)
+        REFERENCES ingredients (id)
         ON UPDATE CASCADE
         ON DELETE CASCADE
 );
