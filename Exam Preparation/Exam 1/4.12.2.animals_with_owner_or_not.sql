@@ -26,4 +26,5 @@ LANGUAGE plpgsql;
 
 
 CALL sp_animals_with_owners_or_not('Hippo');
+
 DROP PROCEDURE sp_animals_with_owners_or_not;
