@@ -1,7 +1,7 @@
 SELECT
     CONCAT_WS(' - ', o.name, a.name) AS "owners - animals",
     o.phone_number,
-    c.id AS cage_id
+    ac.cage_id AS cage_id
 FROM
     animals AS a
 JOIN
@@ -12,10 +12,6 @@ JOIN
     animals_cages AS ac
 ON
     a.id = ac.animal_id
-JOIN
-    cages AS c
-ON
-    ac.cage_id = c.id
 JOIN
     animal_types AS at
 ON
