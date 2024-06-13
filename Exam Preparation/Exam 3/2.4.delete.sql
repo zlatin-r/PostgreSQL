@@ -1,5 +1,6 @@
 DELETE FROM board_games
-WHERE publisher_id IN (SELECT id
+WHERE publisher_id IN (
+    SELECT id
     FROM publishers
     WHERE address_id IN (
         SELECT id
