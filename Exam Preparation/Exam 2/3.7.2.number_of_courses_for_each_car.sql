@@ -2,7 +2,7 @@ SELECT
     ca.id AS car_id,
     ca.make,
     ca.mileage,
-    COUNT(ca.id) AS count_of_courses,
+    COUNT(co.id) AS count_of_courses,
     ROUND(AVG(co.bill), 2) AS average_bill
 FROM
     cars AS ca
@@ -13,7 +13,7 @@ ON
 GROUP BY
     ca.id
 HAVING
-    COUNT(co.car_id) <> 2
+    COUNT(co.id) <> 2
 ORDER BY
     count_of_courses DESC,
     ca.id;
