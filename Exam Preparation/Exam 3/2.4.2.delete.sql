@@ -1,18 +1,20 @@
-DELETE FROM
-    board_games
+DELETE FROM board_games
 WHERE publisher_id IN (
-    SELECT id FROM publishers
-              WHERE address_id IN
-    (SELECT id FROM addresses
-               WHERE town LIKE 'L%'));
+    SELECT id
+    FROM publishers
+    WHERE address_id IN (
+        SELECT id
+        FROM addresses
+        WHERE town LIKE 'L%'
+    )
+);
 
-DELETE FROM
-    publishers
+DELETE FROM publishers
 WHERE address_id IN (
-    SELECT id FROM addresses
-              WHERE town LIKE 'L%');
+    SELECT id
+    FROM addresses
+    WHERE town LIKE 'L%'
+);
 
-DELETE FROM
-    addresses
-WHERE
-    town LIKE 'L%;'
+DELETE FROM addresses
+WHERE town LIKE 'L%';
